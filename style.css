@@ -144,3 +144,10 @@ p {
   color: var(--white-color);
   border-radius: 25px;
 }
+
+@media screen and (max-width: 375px) {
+  .card {
+    height: fit-content;
+    display: block;
+  }
+}
